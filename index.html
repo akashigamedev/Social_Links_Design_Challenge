@@ -9,6 +9,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Social links profile</title>
     <style>
       .attribution {
@@ -21,10 +22,19 @@
     </style>
   </head>
   <body>
-    <img src="assets/images/avatar-jessica.jpeg" alt="profile_picture" />
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
-
+    <div class="container">
+      <img class="profile_picture" src="assets/images/avatar-jessica.jpeg" alt="profile_picture" />
+      <h2>Jessica Randall</h2>
+      <p class="location">London, United Kingdom</p>
+      <p>"Front-end developer and avid reader."</p>
+      <div class="links_container">
+        <button>Github</button>
+        <button>Frontend Mentor</button>
+        <button>LinkedIn</button>
+        <button>Twitter</button>
+        <button>Instagram</button>
+      </div>
+    </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

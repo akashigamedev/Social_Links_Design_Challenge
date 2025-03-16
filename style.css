@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/static/Inter-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url("assets/fonts/static/Inter-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey-700: hsl(0, 0%, 20%);
+  --clr-grey-800: hsl(0, 0%, 12%);
+  --clr-grey-900: hsl(0, 0%, 8%);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.6;
+    background: var(--clr-grey-900);
+    color: var(--clr-white);
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.container {
+    max-width: 375px;
+    border-radius: 16px;
+    background: var(--clr-grey-800);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.location {
+    color: var(--clr-green);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.links_container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.links_container > button {
+    background-color: var(--clr-grey-700);
+    color: var(--clr-white);
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0.75rem 0;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+.links_container > button:hover,
+.links_container > button:focus {
+    background-color: var(--clr-green);
+    color: var(--clr-grey-700);
+    transition: background-color, 200ms ease-out;
+}
+.links_container > button:active {
+    background-color: var(--clr-white);
+}
+
+@media only screen and (min-width: 750px) {
+    .container {
+        max-width: 1440px;
+        padding: 2rem;
+    }
+    .links_container > button {
+        min-width: 300px;
+    }
+}
