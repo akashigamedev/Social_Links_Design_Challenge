@@ -27,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![Social Links Design](./design/Social_Links_Section.png)
-![](./design/Social_Links_Full.png)
 
 ### Links
 
