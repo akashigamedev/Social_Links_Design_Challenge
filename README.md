@@ -39,4 +39,4 @@ Users should be able to:
 
 - Frontend Mentor - [@akashigamedev](https://www.frontendmentor.io/profile/akashigamedev)
 - Itch.io - [@akashidev](https://akashidev.itch.io/)
-- Instagram - [@yourusername](https://www.instagram.com/akashgoyal_77)
+- Instagram - [@akashgoyal_77](https://www.instagram.com/akashgoyal_77)
