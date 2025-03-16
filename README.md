@@ -27,11 +27,11 @@ Users should be able to:
 ### Screenshot
 
 ![Social Links Design](./design/Social_Links_Section.png)
-![](./design/Social_Links_Full.png.png)
+![](./design/Social_Links_Full.png)
 
 ### Links
 
-- Live Site URL: [](https://akashigamedev.github.io/Social_Links_Design_Challenge/)
+- Live Site URL: [View Live Site](https://akashigamedev.github.io/Social_Links_Design_Challenge/)
 
 ### Built with
 
